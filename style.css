@@ -126,10 +126,16 @@ section {
     align-items: center;
 }
 
-.about-video video {
-    max-width: 650px;
-    max-height: 1000px;
+.about-img img {
+    max-width: 1050px;
+    max-height: 2000px;
     margin: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-text span {
