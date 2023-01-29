@@ -15,7 +15,7 @@
     --big-font: 5rem;
     --h2-font: 2.25rem;
     --p-font: 0.9rem;
-    --p--color: rgb(100, 100, 100);
+    --p-color: rgb(100, 100, 100);
 }
 
 *::selection {
@@ -115,10 +115,11 @@ section {
 }
 
 .about {
+    min-height: 90vh;
     background-image: url('./Sait/318775393_675728557672489_1852675653642540173_n.jpg');
     background-position: center;
     background-size: cover;
-    min-height: 90vh;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 1.5rem;
@@ -127,16 +128,67 @@ section {
 
 .about1 {
     min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 1.5rem;
     align-items: center;
 }
 
+.about1 h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 2.2rem;
+}
+
+.about h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 2.2rem;
+}
+
+.about video {
+    max-width: 2000px;
+    max-height: 2000px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.about1 video {
+    max-width: 2000px;
+    max-height: 2000px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.about .btn {
+    display: block;
+    align-items: center;
+    position: relative;
+}
+
+.about1 .btn {
+    display: block;
+    align-items: center;
+    position: relative;
+}
+
 .about-img img {
-    max-width: 100%;
-    width: 480px;
-    height: auto;
+    max-width: 1050px;
+    max-height: 2000px;
+    margin: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-text span {
@@ -146,39 +198,12 @@ section {
 }
 
 .about-text h2 {
-    color: var(--p--color);
     font-size: var(--h2-font);
-}
-
-.about-text h3 {
-    color: var(--p--color);
 }
 
 .about-text p {
     margin: 0.8rem 0 1.8rem;
     line-height: 1.7;
-    color: var(--p--color);
-}
-
-.about-text1 span {
-    font-size: 2.2rem;
-    color: var(--main-color);
-    font-weight: 700;
-}
-
-.about-text1 h2 {
-    color: var(--p--color);
-    font-size: var(--h2-font);
-}
-
-.about-text1 h3 {
-    color: var(--text--color);
-}
-
-.about-text1 p {
-    margin: 0.8rem 0 1.8rem;
-    line-height: 1.7;
-    color: var(--p--color);
 }
 
 .heading {
@@ -258,6 +283,10 @@ section {
 
 .services {
     text-align: center;
+    background-image: url('./Sait/318775393_675728557672489_1852675653642540173_n.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .services span {
@@ -266,6 +295,7 @@ section {
 }
 
 .services h2 {
+    color: var(--p-color);
     font-size: var(--h2-font);
 }
 
@@ -293,6 +323,7 @@ section {
 }
 
 .s-box p {
+    color: var(--p-color);
     line-height: 1.7;
 }
 
